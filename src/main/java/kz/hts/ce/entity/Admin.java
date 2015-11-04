@@ -164,4 +164,21 @@ public class Admin extends BaseEntity {
         this.blocked = blocked;
     }
 
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", phone='" + phone + '\'' +
+                ", gender=" + gender +
+                ", startWorkDate=" + startWorkDate +
+                ", endWorkDate=" + endWorkDate +
+                ", role=" + role +
+                ", blocked=" + blocked +
+                '}';
+    }
 }
