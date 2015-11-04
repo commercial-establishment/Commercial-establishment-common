@@ -163,4 +163,5 @@ public class Admin extends BaseEntity {
     public void setBlocked(boolean blocked) {
         this.blocked = blocked;
     }
+
 }
